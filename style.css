@@ -1,0 +1,63 @@
+* {
+    background-color: beige;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+section{
+    height: 100vh;
+}
+
+section#datos{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 300px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tilt war', Arial, Helvetica, sans-serif;
+    color:rgb(11, 43, 102);
+    border: -2px solid rgb(68, 125, 209);
+    padding: -3px;
+    margin: -2px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Tilt war', Arial, Helvetica, sans-serif;
+    color:rgb(7, 138, 105);
+    border: 2px solid rgb(227, 236, 238);
+    padding: 3px;
+    margin: 2px;
+}
+
+section#datos img{
+    width: 10%;
+}
+
+section#datos h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*h2{
+    font-size: 2rem;
+    text-align: center;
+}
+*/
+    .listadatos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+
+ .listadetalle{
+    width: 200px;
+    margin: 20px;
+
+ }
